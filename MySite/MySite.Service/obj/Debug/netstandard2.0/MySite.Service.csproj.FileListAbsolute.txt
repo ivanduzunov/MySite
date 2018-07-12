@@ -1,0 +1,12 @@
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\bin\Debug\netstandard2.0\MySite.Service.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\bin\Debug\netstandard2.0\MySite.Service.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\bin\Debug\netstandard2.0\MySite.Service.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\bin\Debug\netstandard2.0\MySite.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\bin\Debug\netstandard2.0\MySite.Data.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\obj\Debug\netstandard2.0\MySite.Service.csprojAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\obj\Debug\netstandard2.0\MySite.Service.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\obj\Debug\netstandard2.0\MySite.Service.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\obj\Debug\netstandard2.0\MySite.Service.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\obj\Debug\netstandard2.0\MySite.Service.csproj.CopyComplete
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\obj\Debug\netstandard2.0\MySite.Service.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Service\obj\Debug\netstandard2.0\MySite.Service.pdb

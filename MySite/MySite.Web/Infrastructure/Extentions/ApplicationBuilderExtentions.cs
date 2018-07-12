@@ -13,7 +13,7 @@
 
     using static WebConstants;
 
-    public class ApplicationBuilderExtentions
+    public static class ApplicationBuilderExtentions
     {
         public static IApplicationBuilder UseDatabaseMigration(this IApplicationBuilder app)
         {
@@ -58,7 +58,7 @@
                             UserName = adminRole
                         };
 
-                        await userManager.CreateAsync(adminUser, "levski191472");
+                        await userManager.CreateAsync(adminUser, "Levski191472");
 
                         await userManager.AddToRoleAsync(adminUser, adminRole);
                     }
