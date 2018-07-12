@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-using MySite.Web.Models;
-
-namespace MySite.Web.Data
+﻿namespace MySite.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore;
+    using Models;
+
+    public class MySiteDbContext : IdentityDbContext<User>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public MySiteDbContext(DbContextOptions<MySiteDbContext> options)
             : base(options)
         {
         }
