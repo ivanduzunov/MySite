@@ -4,3 +4,6 @@ C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Data\ob
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Data\obj\Debug\netstandard2.0\MySite.Data.csproj.CoreCompileInputs.cache
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Data\obj\Debug\netstandard2.0\MySite.Data.AssemblyInfoInputs.cache
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Data\obj\Debug\netstandard2.0\MySite.Data.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Data\bin\Debug\netstandard2.0\MySite.Data.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Data\obj\Debug\netstandard2.0\MySite.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Data\obj\Debug\netstandard2.0\MySite.Data.pdb
