@@ -1,1 +1,11 @@
-﻿// Write your JavaScript code.
+﻿
+
+
+
+
+
+
+
+$("button#enterSite").click(function () {
+    
+});
