@@ -1,15 +1,21 @@
-﻿.withoutNav {
+﻿body {
     padding: 10px;
     background-image: url("../images/cloudsBackground.jpg");
 }
 
-.homeDiv {
-    height: 1000px;
+div.homeDiv {
+    height: 600px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    text-align:center;
+    text-align: center;
+}
+
+h1, h2, h3 .titleText {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    text-shadow: initial;
 }
 
 p.footer {
@@ -17,5 +23,3 @@ p.footer {
     font-weight: bold;
     font-style: italic;
 }
-
-
