@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-
+    $('#welcomeDiv').show();
     let counter = 5000;
     $(".titleText").each(function () {
         $(this).fadeIn(counter);
@@ -7,13 +7,20 @@
     });
 
     $("#image").fadeIn(25000);
-    $("#enterButton").fadeIn(30000);
-});
-
-$("a#enterButton").click(function () {
-    alert("CLICKED");
 });
 
 function enterSite() {
-    alert("CLICKED");
+    let img = $("#image");
+    let nav = $('#navbar');
+    let currentHeight = $('#welcomeDiv').css('height');
+    $('#welcomeDiv').css('height', currentHeight);
+
+    $(".titleText").each(function () {
+        $(this).fadeOut();
+    });
+
+    img.animate({ height: '50px', width: '50px' }, 1000);
+
+    nav.fadeIn(3000);
+      
 };

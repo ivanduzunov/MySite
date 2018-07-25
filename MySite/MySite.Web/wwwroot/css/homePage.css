@@ -1,10 +1,9 @@
 ﻿body {
     padding: 10px;
-    background-image: url("../images/cloudsBackground.jpg");
+    background-image: url("../images/roadBackground.jpg");
 }
 
-div.homeDiv {
-    height: 600px;
+div.welcomeDiv {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -12,10 +11,21 @@ div.homeDiv {
     text-align: center;
 }
 
+img {
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+}
+
+    img:hover {
+        border: 3px solid #808080;
+    }
+
 h1, h2, h3 .titleText {
     font-family: 'Permanent Marker', cursive;
     font-size: 48px;
     text-shadow: initial;
+    opacity: 0.9;
 }
 
 p.footer {
