@@ -15,11 +15,28 @@ img {
     cursor: pointer;
     width: 250px;
     height: 250px;
+    position: static;
 }
 
     img:hover {
         border: 3px solid #808080;
     }
+
+
+.navbar-brand {
+    background: url(../images/me.jpg) no-repeat;
+    top: -5px;
+    background-size: 40px 40px;
+    height: 40px;
+    margin: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+
+    .navbar-brand.circle {
+        border-radius: 50%;
+    }
+
 
 h1, h2, h3 .titleText {
     font-family: 'Permanent Marker', cursive;
