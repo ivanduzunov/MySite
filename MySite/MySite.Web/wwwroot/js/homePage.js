@@ -23,11 +23,23 @@ function enterSite(isInWelcomePage) {
             titleTextArr.each(function () {
                 $(this).delay(2000).fadeOut(1000, function () {
                     img.hide();
-                    nav.fadeIn(3000);
+                    nav.fadeIn(3000, function () {
+                        $('#headings').delay(2000).fadeIn(2000)
+                    });
                 });
             });
         });
-    } 
-   
+    }
+
 };
+
+function showContacts() {
+    $('#contactsDiv').fadeIn(1000);
+    $('#navBrand').css('visibility', 'hidden');
+}
+
+function hideContacts() {
+    $('#contactsDiv').fadeOut(1000);
+    $('#navBrand').css('visibility', 'visible');
+}
 

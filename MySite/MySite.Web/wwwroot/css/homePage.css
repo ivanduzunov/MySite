@@ -37,10 +37,86 @@ img {
         border-radius: 50%;
     }
 
+        .navbar-brand.circle:hover {
+            border: 1px solid #808080;
+        }
 
-h1, h2, h3 .titleText {
+#contactsDiv {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#imageContacts {
+    background: url(../images/me.jpg) no-repeat;
+    cursor: pointer;
+    background-size: 90px 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+    #imageContacts:hover {
+        border: 1px solid #808080;
+    }
+
+
+.titleText {
     font-family: 'Permanent Marker', cursive;
     font-size: 48px;
+    text-shadow: initial;
+    opacity: 0.9;
+}
+
+.contactText {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: initial;
+    opacity: 0.9;
+}
+
+#heading {
+    margin-top: 60px;
+}
+
+.imageHeading {
+    background-size: 150px 150px;
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#programmingImageHeading {
+    background: url(/images/headings/programmingHeadingPic.jpg);
+}
+
+#historyImageHeading {
+    background: url(/images/headings/historyHeading.jpg);
+}
+
+#freeTimeImageHeading {
+    background: url(/images/headings/freeTimeHeading.jpg);
+}
+
+.headingTitle {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-align: center;
     text-shadow: initial;
     opacity: 0.9;
 }
