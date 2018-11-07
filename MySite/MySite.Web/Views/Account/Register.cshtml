@@ -1,38 +1,13 @@
-﻿@model RegisterViewModel
+﻿
 @{
     ViewData["Title"] = "Register";
     Layout = "_Layout";
 }
 <div class="welcomeDiv">
-    <br />
-    <h2 style="font-family: 'Permanent Marker', cursive;">Subscribe</h2>
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-            <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post" class="text-center">
-                <hr />
-                <div asp-validation-summary="All" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="Email" style="font-family: 'Permanent Marker', cursive;"></label>
-                    <input asp-for="Email" class="form-control" />
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Password" style="font-family: 'Permanent Marker', cursive;"></label>
-                    <input asp-for="Password" class="form-control" />
-                    <span asp-validation-for="Password" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="ConfirmPassword" style="font-family: 'Permanent Marker', cursive;"></label>
-                    <input asp-for="ConfirmPassword" class="form-control" />
-                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-                </div>
-                <button type="submit" class="btn btn-default"><h4 style="font-family: 'Permanent Marker', cursive;">Submit</h4></button>
-            </form>
-            <br />
-            <h6>*You will receive news for new projects and updates.</h6>
-        </div>
-    </div>
+
 </div>
+
+
 
 
 @section Scripts {

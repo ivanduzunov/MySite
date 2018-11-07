@@ -43,3 +43,8 @@ function hideContacts() {
     $('#navBrand').css('visibility', 'visible');
 }
 
+function showRegisterDiv() {
+    $('#homeDiv').fadeOut(1000);
+    $('#registerDiv').fadeIn(1000);
+}
+
