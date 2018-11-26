@@ -44,7 +44,11 @@ function hideContacts() {
 }
 
 function showRegisterDiv() {
+    console.log('Register DIV')
     $('#homeDiv').fadeOut(1000);
     $('#registerDiv').fadeIn(1000);
 }
 
+$('#registerForm').submit(function () {
+    console.log()
+});
