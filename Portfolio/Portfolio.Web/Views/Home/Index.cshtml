@@ -1,0 +1,68 @@
+﻿
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Welcome to Ivan Uzunov's page";
+    Layout = "_Layout";
+}
+
+
+<div class="welcomeDiv" id="welcomeDiv">
+
+    <div id="homeDiv" class="row">
+        <h2 class="titleText" style="display: none;" id="homeText">Welcome to</h2>
+        <h1 class="titleText" style="display: none;" id="homeText">Ivan Uzunov's</h1>
+        <h2 class="titleText" style="display: none;" id="homeText">Website</h2>
+        <img style="display: none;" title="Click to enter" id="image" class="img-circle" src="~/images/me.jpg" onclick="enterSite(true)">
+
+        <div id="headings" class="headingsHome" style="display: none;">
+            <div id="heading" class="col-xs-4 center-block">
+                <img class="center-block imageHeading" id="programmingImageHeading" />
+                <h1 class="headingTitle">Programming</h1>
+            </div>
+            <div id="heading" class="col-xs-4 center-block">
+                <img class="center-block imageHeading" id="historyImageHeading" />
+                <h1 class="headingTitle">History</h1>
+            </div>
+            <div id="heading" class="col-xs-4 center-block">
+                <img class="center-block imageHeading" id="freeTimeImageHeading" />
+                <h1 class="headingTitle">Hobbies</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="registerDiv" class="row" style="display: none">
+        <br />
+        <h2 style="font-family: 'Permanent Marker', cursive;">Subscribe</h2>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <form id="registerForm" method="post" class="text-center">
+                    <hr />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Email" style="font-family: 'Permanent Marker', cursive;"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" style="font-family: 'Permanent Marker', cursive;"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword" style="font-family: 'Permanent Marker', cursive;"></label>
+                        <input asp-for="ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <button id="regsterButton" type="submit" class="btn btn-default"><h4 style="font-family: 'Permanent Marker', cursive;">Submit</h4></button>
+                </form>
+                <br />
+                <h6>*You will receive news for new projects and updates.</h6>
+            </div>
+        </div>
+    </div>
+    <br />
+
+
+
+
+</div>

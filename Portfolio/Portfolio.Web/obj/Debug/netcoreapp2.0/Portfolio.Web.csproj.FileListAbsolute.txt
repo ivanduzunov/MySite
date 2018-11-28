@@ -1,0 +1,17 @@
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\Portfolio.Web.csprojAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\Portfolio.Web.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\Portfolio.Web.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\Portfolio.Web.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Web.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Web.runtimeconfig.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Web.runtimeconfig.dev.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Web.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Web.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Data.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\Portfolio.Web.csproj.CopyComplete
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\Portfolio.Web.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\obj\Debug\netcoreapp2.0\Portfolio.Web.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Common.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Web\bin\Debug\netcoreapp2.0\Portfolio.Common.pdb

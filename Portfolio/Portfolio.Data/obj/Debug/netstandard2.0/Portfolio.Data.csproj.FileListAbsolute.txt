@@ -1,0 +1,9 @@
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\bin\Debug\netstandard2.0\Portfolio.Data.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\bin\Debug\netstandard2.0\Portfolio.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\obj\Debug\netstandard2.0\Portfolio.Data.csprojAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\obj\Debug\netstandard2.0\Portfolio.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\obj\Debug\netstandard2.0\Portfolio.Data.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\obj\Debug\netstandard2.0\Portfolio.Data.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\bin\Debug\netstandard2.0\Portfolio.Data.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\obj\Debug\netstandard2.0\Portfolio.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\Portfolio\Portfolio.Data\obj\Debug\netstandard2.0\Portfolio.Data.pdb

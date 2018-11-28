@@ -9,7 +9,6 @@ C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\bin
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\bin\Debug\netcoreapp2.0\MySite.Service.pdb
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\obj\Debug\netcoreapp2.0\MySite.Web.csprojAssemblyReference.cache
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\obj\Debug\netcoreapp2.0\MySite.Web.csproj.CoreCompileInputs.cache
-C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\obj\Debug\netcoreapp2.0\MySite.Web.AssemblyInfoInputs.cache
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\obj\Debug\netcoreapp2.0\MySite.Web.AssemblyInfo.cs
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\MySite\MySite\MySite.Web\obj\Debug\netcoreapp2.0\MySite.Web.csproj.CopyComplete
