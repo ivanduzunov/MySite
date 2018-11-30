@@ -43,8 +43,15 @@ function hideContacts() {
 }
 
 function showRegisterDiv() {
-    $('#homeDiv').fadeOut(1000);
-    $('#registerDiv').fadeIn(1000);
+    $('#homeDiv').fadeOut();
+    $('#loginDiv').fadeOut();
+    $('#registerDiv').fadeIn();
+}
+
+function showLoginDiv() {
+    $('#homeDiv').fadeOut();
+    $('#registerDiv').fadeOut();
+    $('#loginDiv').fadeIn();
 }
 
 $('#registerForm').submit(function () {

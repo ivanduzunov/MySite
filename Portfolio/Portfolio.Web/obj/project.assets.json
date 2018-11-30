@@ -13568,11 +13568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\MySite\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
       "projectName": "Portfolio.Web",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\MySite\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio.Web\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\MySite\\Portfolio\\Portfolio.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13591,11 +13591,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj": {
-              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj"
+            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\MySite\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\MySite\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj"
             },
-            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio.Data\\Portfolio.Data.csproj": {
-              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\Portfolio\\Portfolio.Data\\Portfolio.Data.csproj"
+            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\MySite\\Portfolio\\Portfolio.Data\\Portfolio.Data.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\MySite\\Portfolio\\Portfolio.Data\\Portfolio.Data.csproj"
             }
           }
         }

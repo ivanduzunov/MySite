@@ -1,5 +1,5 @@
 ﻿
-@model RegisterViewModel
+@model Portfolio.Web.Models.AccountViewModels.IndexViewModel
 @{
     ViewData["Title"] = "Welcome to Ivan Uzunov's page";
     Layout = "_Layout";
@@ -35,29 +35,68 @@
         <h2 style="font-family: 'Permanent Marker', cursive;">Subscribe</h2>
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <form id="registerForm" method="post" class="text-center">
+                <form asp-controller="Account" asp-action="Register" id="registerForm" method="post" class="text-center">
                     <hr />
                     <div asp-validation-summary="All" class="text-danger"></div>
                     <div class="form-group">
-                        <label asp-for="Email" style="font-family: 'Permanent Marker', cursive;"></label>
-                        <input asp-for="Email" class="form-control" />
-                        <span asp-validation-for="Email" class="text-danger"></span>
+                        <label asp-for="@Model.RegisterModel.Email" style="font-family: 'Permanent Marker', cursive;"></label>
+                        <input asp-for="@Model.RegisterModel.Email" class="form-control" />
+                        <span asp-validation-for="@Model.RegisterModel.Email" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Password" style="font-family: 'Permanent Marker', cursive;"></label>
-                        <input asp-for="Password" class="form-control" />
-                        <span asp-validation-for="Password" class="text-danger"></span>
+                        <label asp-for="@Model.RegisterModel.Password" style="font-family: 'Permanent Marker', cursive;"></label>
+                        <input asp-for="@Model.RegisterModel.Password" class="form-control" />
+                        <span asp-validation-for="@Model.RegisterModel.Password" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="ConfirmPassword" style="font-family: 'Permanent Marker', cursive;"></label>
-                        <input asp-for="ConfirmPassword" class="form-control" />
-                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        <label asp-for="@Model.RegisterModel.ConfirmPassword" style="font-family: 'Permanent Marker', cursive;"></label>
+                        <input asp-for="@Model.RegisterModel.ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="@Model.RegisterModel.ConfirmPassword" class="text-danger"></span>
                     </div>
                     <button id="regsterButton" type="submit" class="btn btn-default"><h4 style="font-family: 'Permanent Marker', cursive;">Submit</h4></button>
                 </form>
-                <br />
                 <h6>*You will receive news for new projects and updates.</h6>
+                <h6>*You will be able to login with your e-mail and password.</h6>
+                <h3><a onclick="showLoginDiv();" style="cursor: pointer;">Login</a>, if you already have an account.</h3>
             </div>
+        </div>
+        <br />
+    </div>
+
+    <div class="row" id="loginDiv" style="display: none">
+        <br />
+        <div class="col-md-4 col-md-offset-4">
+            <h2 style="font-family: 'Permanent Marker', cursive;">Login</h2>
+            <section>
+                <form asp-controller="Account" asp-action="Login" method="post">
+                    <hr />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="@Model.LoginModel.Email"></label>
+                        <input asp-for="@Model.LoginModel.Email" class="form-control" />
+                        <span asp-validation-for="@Model.LoginModel.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.LoginModel.Password"></label>
+                        <input asp-for="@Model.LoginModel.Password" class="form-control" />
+                        <span asp-validation-for="@Model.LoginModel.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label asp-for="@Model.LoginModel.RememberMe">
+                                <input asp-for="@Model.LoginModel.RememberMe" />
+                                @Html.DisplayNameFor(m => m.LoginModel.RememberMe)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-default">Log in</button>
+                    </div>
+                    <h3><a onclick="showRegisterDiv();" style="cursor: pointer;">Register</a> as a new user?</h3>
+                </form>
+            </section>
+        </div>
+        <div class="col-md-6 col-md-offset-2">
         </div>
     </div>
     <br />
